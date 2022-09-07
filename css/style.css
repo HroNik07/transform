@@ -1,0 +1,28 @@
+.box{
+    width: 160px;
+    height: 160px;
+    background: red;
+    transition: 0.5s;
+}
+.one:hover{
+    transform: translate(50px,50px);
+}
+.two{
+    background: rgb(0, 199, 0);
+}
+.two:hover{
+    transform: scale(150%,80%);
+}
+.tree{
+    background: rgb(0, 0, 214);
+    transition:3s;
+}
+.tree:hover{
+    transform:rotate(3600deg) scale(20%,500%);
+}
+.four{
+    background: linear-gradient(red,orange,yellow,green,rgb(0, 162, 255),blue,rgb(128, 0, 128));
+}
+.four:hover{
+    transform:skew(15deg,5deg) ;
+}
